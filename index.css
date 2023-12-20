@@ -1,0 +1,33 @@
+.button {
+  width: 300px;
+  height: 40px;
+  background-color: #6b63ce;
+  text-align: center;
+  padding: 3px 10px;
+  border-radius: 25px;
+  box-shadow: 0px 8px #4a429a;
+  transition: all 0.5s;
+}
+
+.button:active {
+  background-color: #4a429a;
+}
+
+.button::after {
+  transform: translateY(4px);
+}
+
+.button:hover {
+  box-shadow: 0px 4px #4a429a;
+  transform: translateY(4px);
+}
+
+.button__text {
+  line-height: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.button__text--primary {
+  color: white;
+}
